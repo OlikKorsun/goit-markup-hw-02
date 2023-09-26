@@ -31,6 +31,10 @@ body {
      list-style-type: none;
  }
 
+ .header {
+    background-color: var(--whitebackground-color-wtite, #FFFFFF);
+}
+
  .header-logo {
     color: var(--primarybrand-color-iris, #4D5AE5);
     font-family: Raleway;
@@ -51,30 +55,46 @@ body {
     text-transform: uppercase;
 }
 
- .header-link, 
- .address-link {
+ .header-link, {
     color: var(--dark-color-navy, #2E2F42);
     font-weight: 500;
    }
 
 .header-link:focus,
 .header-link:hover {
-       color: var(--pressedstate-color-ocean, #404BBF);
-       font-weight: 500;
+    color: var(--pressedstate-color-ocean, #404BBF);
+    font-weight: 500;
    }
 
 .address-link:hover {
 
 }
-   .mailto {}
+.mailto,
+.tel {
+    color: var(--text-color-slate, #434455);
+}
 
- .tel {}
+ .main-title {
+    background: var(--modaloverlay-color-navybluemodal, #2E2F42);
+}
 
- .main-title {}
+ .hero-title {
+    color: var(--whitebackground-color-wtite, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+ }
 
- .hero-title {}
-
- .button-title {}
+ .button-title {
+    border-radius: 4px;
+    background: var(--primarybrand-color-iris, #4D5AE5);
+    color: var(--whitebackground-color-wtite, #FFFFFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
 
  .defenders {}
 
@@ -85,5 +105,5 @@ body {
  .team {}
 
  .portfolio {}
- .header {}
+ 
  .footer {}
