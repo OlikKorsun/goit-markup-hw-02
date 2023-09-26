@@ -51,18 +51,24 @@ body {
     text-transform: uppercase;
 }
 
- .heder-link {
+ .header-link, 
+ .address-link {
     color: var(--dark-color-navy, #2E2F42);
     font-weight: 500;
    }
 
- .mailto {}
+.header-link:focus,
+.header-link:hover {
+       color: var(--pressedstate-color-ocean, #404BBF);
+       font-weight: 500;
+   }
+
+.address-link:hover {
+
+}
+   .mailto {}
 
  .tel {}
-
- .address-link{
-    
- }
 
  .main-title {}
 
