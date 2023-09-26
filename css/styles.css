@@ -87,13 +87,14 @@ body {
     letter-spacing: 1.12px;
  }
 
- .button-title {
+ .button{
     border-radius: 4px;
     background: var(--primarybrand-color-iris, #4D5AE5);
     color: var(--whitebackground-color-wtite, #FFFFFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     letter-spacing: 0.64px;
+    cursor: pointer;
 }
 
  .defenders {}
