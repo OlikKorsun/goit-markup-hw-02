@@ -1,3 +1,18 @@
+root{
+--primarybrand-color-iris:#4D5AE5;
+--pressedstate-color-ocean:#404BBF;
+--dark-color-navy:#2E2F42;
+--success-color-green:#31D0AA;
+--text-color-slate:#434455;
+--subtitletext-color-ligntslate:#8E8F99;
+--accent-color-cornflower:#E7E9FC;
+--light-color-cloud:#F4F4FD;
+--modaloverlay-color-navybluemodal:#2E2F42;
+--herobackground-color-gray:#2E2F42;
+--whitebackground-color-wtite:#FFFFFF;
+--modalbackground-color-modal:#FCFCFC;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -6,3 +21,11 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul {
+     list-style-type: none;
+ }
