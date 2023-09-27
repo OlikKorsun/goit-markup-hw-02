@@ -117,15 +117,7 @@ body {
     letter-spacing: 0.4px;
  }
  
- .team h3 {
-    text-align: center;
-  }
-
- .team p {
-    text-align: center;
-  }
-
-  .team {
+ .team {
     background: var(--light-color-cloud, #F4F4FD);
   }
 
