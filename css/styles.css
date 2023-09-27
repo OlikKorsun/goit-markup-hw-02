@@ -14,7 +14,9 @@ root{
 }
 
 body {
-    font-family: Roboto;
+    background-color: var(--whitebackground-color-wtite, #FFFFFF);
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--text-color-slate, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -30,15 +32,7 @@ body {
  ul {
     list-style-type: none;
  }
-
- p {
-    color: var(--text-color-slate, #434455);
- }
-
- .header {
-    background-color: var(--whitebackground-color-wtite, #FFFFFF);
-}
-
+ 
  .header-logo {
     color: var(--primarybrand-color-iris, #4D5AE5);
     font-family: Raleway;
@@ -65,14 +59,12 @@ body {
    }
 
 .header-link:focus,
-.header-link:hover {
-    color: var(--pressedstate-color-ocean, #404BBF);
+.header-link:hover,
+.address-link:hover {
+    color: var(--primarybrand-color-iris, #4D5AE5);
     font-weight: 500;
    }
 
-.address-link:hover {
-
-}
 .mailto,
 .tel {
     color: var(--text-color-slate, #434455);
@@ -93,7 +85,7 @@ body {
     letter-spacing: 1.12px;
  }
 
- .button{
+ .main-button{
     border-radius: 4px;
     background: var(--primarybrand-color-iris, #4D5AE5);
     color: var(--whitebackground-color-wtite, #FFFFFF);
@@ -102,6 +94,10 @@ body {
     letter-spacing: 0.64px;
     cursor: pointer;
 }
+
+ .main-button:active {
+    color: var(--pressedstate-color-ocean, #404BBF);
+ }
 
  .title-h2 {
     color: var(--modaloverlay-color-navybluemodal, #2E2F42);
@@ -153,10 +149,11 @@ body {
      text-transform: uppercase;
  }
 
-.footer p {
+ .footer p {
     color: var(--light-color-cloud, #F4F4FD);
 }
  
+ .header {}
  .portfolio {}
- 
  .defenders {}
+ p {}   
