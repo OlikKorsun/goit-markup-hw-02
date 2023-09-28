@@ -98,7 +98,6 @@ body {
  .main-button{
     background: var(--primarybrand-color-iris, #4D5AE5);
     color: var(--whitebackground-color-wtite, #FFFFFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
@@ -107,7 +106,7 @@ body {
 
  .main-button:hover,
  .main-button:focus {
-    color: var(--pressedstate-color-ocean, #404BBF);
+    background-color: var(--pressedstate-color-ocean, #404BBF);
  }
 
  .title-h2 {
@@ -129,8 +128,16 @@ body {
  }
  
  .team {
-    background: var(--light-color-cloud, #F4F4FD);
+    background: var(--whitebackground-color-wtite, #FFFFFF);
   }
+
+ .team-p {
+    font-size: 16px;
+  }
+
+ .footer-block {
+    background-color: var(--dark-color-navy, #2E2F42);
+ }
 
  .footer-logo {
      color: var(--primarybrand-color-iris, #4D5AE5);
@@ -152,11 +159,12 @@ body {
      text-transform: uppercase;
  }
 
- .footer p {
+ .footer-p {
     color: var(--light-color-cloud, #F4F4FD);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
  
- .header {}
+ .header-block {}
  .portfolio {}
  .defenders {}
- p {}   
