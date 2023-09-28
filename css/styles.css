@@ -128,9 +128,12 @@ body {
  }
  
  .team {
-    background: var(--whitebackground-color-wtite, #FFFFFF);
+    background-color: var(--light-color-cloud, #F4F4FD);
   }
 
+ .team-ul {
+    background-color: var(--whitebackground-color-wtite, #FFFFFF);
+ }
  .team-p {
     font-size: 16px;
   }
@@ -159,7 +162,7 @@ body {
      text-transform: uppercase;
  }
 
- .footer-p {
+ .p-footer {
     color: var(--light-color-cloud, #F4F4FD);
     line-height: 1.2;
     letter-spacing: 0.02em;
