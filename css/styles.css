@@ -68,12 +68,12 @@ body {
 
 .header-link:focus,
 .header-link:hover {
-    color: var(--primarybrand-color-iris, #4D5AE5);
+    color: var(--pressedstate-color-ocean, #404BBF);
    }
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--primarybrand-color-iris, #4D5AE5);
+    color: var(--pressedstate-color-ocean, #404BBF);
 }
 
 .address-link {
