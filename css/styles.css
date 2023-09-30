@@ -163,7 +163,7 @@ body {
      text-transform: uppercase;
  }
 
- .footer_p {
+ .footer-block-p {
     color: var(--light-color-cloud, #F4F4FD);
     line-height: 1.2;
     letter-spacing: 0.02em;
