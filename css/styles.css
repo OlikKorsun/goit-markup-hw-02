@@ -109,7 +109,7 @@ body {
     background-color: var(--pressedstate-color-ocean, #404BBF);
  }
 
- .title-h2 {
+ h2 {
     color: var(--modaloverlay-color-navybluemodal, #2E2F42);
     text-align: center;
     font-size: 36px;
@@ -119,7 +119,7 @@ body {
     text-transform: capitalize;
  }
  
- .title-h3 {
+ h3 {
     color: var(--modaloverlay-color-navybluemodal, #2E2F42);
     font-size: 20px;
     font-weight: 500;
@@ -176,3 +176,5 @@ body {
  .defenders-section-p {}
  .title-section-h2 {}
  .team-section-li {}
+ .defenders-section-h3 {}
+ .team-section-h3 {}
