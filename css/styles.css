@@ -128,7 +128,7 @@ body {
  }
  
  .team-section {
-    background-color: var(--whitebackground-color-wtite,#FFFFFF);
+    background-color: var(--light-color-cloud, #F4F4FD);
   }
 
  .ul-team {
@@ -172,3 +172,5 @@ body {
  .header-block {}
  .portfolio-section {}
  .defenders-section {}
+ .defenders-section-li {}
+ .defenders-section-p {}
