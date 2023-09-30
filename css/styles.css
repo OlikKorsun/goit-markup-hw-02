@@ -135,7 +135,7 @@ body {
     background-color: var(--whitebackground-color-wtite, #FFFFFF);
  }
 
- .team-p {
+ .team-section-p {
     font-size: 16px;
   }
 
@@ -163,18 +163,26 @@ body {
      text-transform: uppercase;
  }
 
- .p-footer {
+ .footer-block-p {
     color: var(--light-color-cloud, #F4F4FD);
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
  
  .header-block {}
- .portfolio-section {}
+ 
  .defenders-section {}
+ .defenders-section-h2 {}
+ .defenders-section-h3 {}
  .defenders-section-li {}
  .defenders-section-p {}
- .title-section-h2 {}
- .team-section-li {}
- .defenders-section-h3 {}
+
+ .portfolio-section {}
+ .portfolio-section-h2 {}
+ .portfolio-section-ul {}
+ .portfolio-section-li {}
+ .portfolio-section-h3 {}
+ .portfolio-section-p {}
+ 
  .team-section-h3 {}
+ 
