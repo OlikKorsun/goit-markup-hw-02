@@ -163,26 +163,26 @@ body {
      text-transform: uppercase;
  }
 
- .footer-block-p {
+ .footer-block-p-one {
     color: var(--light-color-cloud, #F4F4FD);
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
+ }
  
  .header-block {}
  
  .defenders-section {}
- .defenders-section-h2 {}
- .defenders-section-h3 {}
+ .defenders-section-h-two {}
+ .defenders-section-h-three {}
  .defenders-section-li {}
  .defenders-section-p {}
 
  .portfolio-section {}
- .portfolio-section-h2 {}
+ .portfolio-section-h-two {}
  .portfolio-section-ul {}
  .portfolio-section-li {}
- .portfolio-section-h3 {}
+ .portfolio-section-h-three {}
  .portfolio-section-p {}
  
- .team-section-h3 {}
+ .team-section-h-three {}
  
