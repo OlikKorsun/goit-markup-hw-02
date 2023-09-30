@@ -127,14 +127,14 @@ body {
     letter-spacing: 0.4px;
  }
  
- .team {
-    background-color: var(--light-color-cloud, #F4F4FD);
+ .team-section {
+    background-color: var(--whitebackground-color-wtite,#FFFFFF);
   }
 
- .team-ul {
+ .ul-team {
     background-color: var(--whitebackground-color-wtite, #FFFFFF);
  }
- 
+
  .team-p {
     font-size: 16px;
   }
@@ -170,5 +170,5 @@ body {
 }
  
  .header-block {}
- .portfolio {}
- .defenders {}
+ .portfolio-section {}
+ .defenders-section {}
