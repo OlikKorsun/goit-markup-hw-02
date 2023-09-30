@@ -163,12 +163,12 @@ body {
      text-transform: uppercase;
  }
 
- .paragr-u-footer {
-    color: var(--light-color-cloud, #F4F4FD);
+.p-in-footer {
+    color: var(--light-color-cloud, #f4f4fd);
     line-height: 1.5;
     letter-spacing: 0.02em;
- }
- 
+}
+
  .header-block {}
  
  .defenders-section {}
