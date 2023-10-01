@@ -163,10 +163,10 @@ body {
      text-transform: uppercase;
  }
 
- .paragraf {
-    color: var(--light-color-cloud, #f4f4fd);
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+ .footer-paragraf {
+     color: var(--light-color-cloud, #F4F4FD);
+     line-height: 1.5;
+     letter-spacing: 0.32px;
 }
 
  .header-block {}
